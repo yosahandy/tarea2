@@ -9,11 +9,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- CSS only -->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <title>JSP Page</title>
     </head>
     <body>
-        <a href="index.jsp"> Version1<a/>
-            <br>
+       
             
         <%
         String matricula[] = {"57201000169", "57201000170", "57201000171", "57201000172","57201000173","57201000174",
@@ -47,7 +48,7 @@
         
         %>
 <div class="contaier">      
-    <table class="table-bordered table hover">
+    <table class="table table-striped table-bordered table-hover table-dark">
             <thead>
                 <tr class="danger">
                     <th>MATRICULA</th>
